@@ -15,11 +15,10 @@ class Caesar:
             return ''.join([self.encode(char) for char in line])
 
     def decode(self, line):
-		for key in range(33):
-			key = int(input('Ээъыцмъ фубз:'))
-			cipher = Caesar(key)
-			line = open('2.txt','r')
-			s = line.read()
+		key = 19
+		cipher = Caesar(key)
+		line = open('2.txt','r')
+		s = line.read()
         pass 
     
 while line:
